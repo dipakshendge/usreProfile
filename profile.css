@@ -1,8 +1,9 @@
 .main{
-    height: 300px;
+    height: 1000px;
     width: 100%;
     float: left;
     text-align: center;
+    overflow: hidden;
     
 }
 header{
@@ -33,12 +34,13 @@ img{
     height: 300px;
 }
 .sub1{
-    width: 600px;
+    width: 50%;
     height: 200px;
     border: 1px solid;
     float: right;
     background-color: skyblue;
     border-radius: 60px 30px 60px 30px;
+    
 }
 body{
 background-color: rgb(172, 218, 218);
@@ -50,10 +52,15 @@ ul li{
     border-radius: 10px;
     width: 400px; 
     margin: 2px auto; 
+    
 }
 ul{
     margin: 30px auto;
+    
 }
 li:hover{
     background-color: #ccc;
+}
+#map{
+    width:100%
 }
