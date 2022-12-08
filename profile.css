@@ -12,6 +12,7 @@ header{
     border-radius: 20px;
     background-color: lightsalmon;
     margin: 10px 10px;
+    top: 1px;
     
 }
 
@@ -20,8 +21,18 @@ header{
     border-radius: 20px;
     background-color: lightsalmon;
     margin: 10px 10px;
+    
 }
-img{
+.skill{
+    float: left !important;
+    /* position: overflow; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+.skill a{
+    margin: 10px;
+}
+.ima{
     border: 1px;
     height: 200px;
     width: 16%;
@@ -52,7 +63,6 @@ ul li{
     border-radius: 10px;
     width: 400px; 
     margin: 2px auto; 
-    
 }
 ul{
     margin: 30px auto;
